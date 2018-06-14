@@ -3,7 +3,7 @@
   
 }
 body {
-  background-color: #222
+  background-color:darkslategray
 }
 
 
@@ -32,8 +32,3 @@ body {
   to { transform: rotate(360deg); }
 }
 
-h1 {
-  font-size: 54px;
-  color:white;
-
-}
