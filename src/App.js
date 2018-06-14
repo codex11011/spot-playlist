@@ -119,7 +119,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {this.state.serverData.user ?
+        { this.state.serverData.user ?
           <div>
             <h1 style={{...defaultStyle,'font-size':'54px'}}>
               { this.state.serverData.user.name}'s Playlist
@@ -128,9 +128,9 @@ class App extends Component {
               <HoursCounter playlists={this.state.serverData.user.playlists}/>    
               <Filter/>
               <Playlist/>
-              <Playlist />
-              <Playlist />
-              <Playlist />
+              <Playlist/>
+              <Playlist/>
+              <Playlist/>
           </div> : <h1 style={defaultStyle}>"Loading..."</h1>
         }
       </div>
