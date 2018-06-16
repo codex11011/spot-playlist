@@ -63,7 +63,7 @@ let fakeServerData = {
       }, {
         id: 6,
         img:'https://koreaboo-cdn.storage.googleapis.com/2017/09/2pmjunhokbs.jpg',
-        name: 'Weekly Hits',
+        name: 'Rock',
         songs: [
           { name: 'Danger', duration: 25 },
           { name: 'Run', duration: 42 },
@@ -72,7 +72,7 @@ let fakeServerData = {
       }, {
         id: 7,
         img:'https://i.ytimg.com/vi/GhuuMNpBb8c/maxresdefault.jpg',
-        name: 'Discover Weekly',
+        name: 'BTS',
         songs: [
           { name: 'I need you', duration: 27 },
           { name: 'Fire', duration: 21 },
@@ -82,7 +82,7 @@ let fakeServerData = {
       {
         id: 8,
         img:'https://images-na.ssl-images-amazon.com/images/I/81MbkwC1ueL._SL1500_.jpg',
-        name: 'My favourite',
+        name: 'Dynamo',
         songs: [
           { name: 'Fake love', duration: 52 },
           { name: 'Bood sweat tears', duration: 21 },
